@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+h1 {
+    text-align: center;
+    color: aquamarine;
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+
+}
+h2 {
+    text-align: center;
+    color: rgb(35, 206, 20);
+    text-transform: capitalize;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+
+}
+.imgMain{
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid rgb(11, 219, 11);
+    border-radius: 10px;
+    
+
+}
+.imgMain2{
+    width: 400px;
+    height: 350px;
+    background-image: url('images/shiva-ga43c54b0e_1920.jpg');
+    background-size: cover;
+    background-position: top center;
+
+    
+    margin: 0 auto;
+    display: block;
+    border: 2px solid rgb(144, 216, 11);
+    border-radius: 20px;
+}
+.imgMain3{
+    width: 300px;
+    height: 350px;
+    background-image: url(images/1.jpg);
+    background-size: contain;
+    background-position: top center;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid rgb(18, 231, 71);
+    border-radius: 30px;
+
+
+}
+ul li{
+    list-style: none;
+    color: #b42e2e;
+    margin: 10px;
+    
+}
+ul{
+    display: flex;
+}
+.icon{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    border-radius: 70%;
+    border-style: dashed;
+    border-color: rgb(238, 215, 12);
+    
+    
+}
+.ul1 li{
+    list-style: none;
+    color: rgb(28, 206, 22);
+    margin: 20px;
+
+}
+
+.icon2{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    border-color: rgb(230, 10, 156);
+    border-style: dotted;
+    
+    
+}
+.btnSignup{
+    margin: 10px;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: #b42e2e;
+    color: #ffffff;
+    
+}
+.btnLogin{
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgb(228, 142, 12);
+    color: rgb(15, 63, 219);
+}
+.card{
+    width: 300px;
+    height: 350px;
+    border: 3px solid purple;
+    border-radius: 10px;
+
+
+}
+.card img{
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+
+}   
+.card h1{
+    text-align: center;
+    color: rgb(54, 15, 228);
+    
+    
+}
+.card button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: #ffffff;
+
+
+}
+.card p:first-of-type(){
+    text-align: center;
+    text-emphasis-style: initial;
+    color: #b42e2e;
+    
+}
+.row{
+    display: flex;
+}
+.col-md-4{
+    margin: 10px;
+}
+
+table
+.tb{
+    border-collapse: collapse;
+    width: 400PX;
+    margin-left: 10PX;
+
+}
+.tb th{
+    background: #c02d2d;
+}
+.tb td{
+    padding: 5px 7px;
+    border: 1px solid #0f0f0f;
+}
+
+.tb tbody tr:nth-child(4) td:first-of-type{
+    background-color: rgb(194, 51, 187) !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+

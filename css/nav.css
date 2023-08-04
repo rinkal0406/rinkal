@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    overflow-x: hidden;
+}
+ul{
+    list-style: none;
+    display: flex;
+    
+    
+    margin: 10px;
+}
+ul li{
+    color: #131212;
+    padding: 10px;
+    margin-right: 50px;
+}
+
+.btnLogin1{
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 50px;
+    
+}
+.btnSignup2{
+    
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: #131212;
+    color: #ffffff;
+    
+    
+}
+.container{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 400px ;
+    background-image: url('../images/bg-final.png');
+    
+    
+    
+}
+
+ul li a{
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    font-family: 'Lato', sans-serif;
+}
+h1{
+    font-family: 'Lato', sans-serif;
+    font-size: 35px;
+    
+    margin-left: 70px;
+    padding-top: 50px;
+    
+}
+span{
+    color: chocolate;
+}
+p{
+    margin: 20px;
+    margin-left: 70px;
+    
+}
+.btnContactus{
+    color: aliceblue;
+    background-color: #131212;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    margin: 10px;
+    margin-left: 70px;
+    
+}
+.h11{
+    text-align: center;
+    text-shadow: 2px 2px #d41717;
+}
+hr{
+    margin-left: 610px;
+    margin-right: auto;
+    width: 200px;
+}
+span1{
+    
+    border: 2px solid black;
+    
+}
+.grid-container{
+    justify-content: center;
+    display: flex;
+    margin: 10px;
+
+}
+
+.card img{
+    height: 150px;
+    width: 250px;
+
+}
+
+.card{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(226, 69, 166);
+    margin: 10px;
+    
+    
+}
+
+.card h4{
+    text-align: center;
+    color: #ffffff;
+
+    
+    
+}
+.card button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(201, 190, 39);
+    color: #ffffff;
+    
+}
+.card p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+
+.card2 img{
+    height: 150px;
+    width: 250px;
+
+}
+
+.card2{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(79, 179, 76);
+    margin: 10px;
+}
+
+.card2 h4{
+    text-align: center;
+    color: #ffffff;
+
+    
+    
+}
+.card2 button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(187, 44, 180);
+    color: #ffffff;
+    
+}
+.card2 p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+
+.card3 img{
+    height: 150px;
+    width: 250px;
+
+}
+
+.card3{
+    width: 250px;
+    height: 350px;
+    background-color: rgb(42, 124, 35);
+    margin: 10px;
+}
+
+.card3 h4{
+    text-align: center;
+    color: #ffffff;
+
+    
+    
+}
+.card3 button{
+    margin: 0 auto;
+    display: block;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgb(100, 49, 182);
+    color: #ffffff;
+    
+}
+.card3 p{
+    margin-left: 20px;
+    text-emphasis-style: initial;
+    color: #ffffff;
+}
+
+

@@ -1,0 +1,51 @@
+h1{
+    background: linear-gradient(180deg,#20BDFF,#0ad103);
+    background-clip: text;
+    -webkit-background-clip: text; 
+    -moz-background-clip: text;
+    color: transparent;
+    filter: grayscale(70%);
+    
+    
+}
+.btnSignup{
+    width: 150px;
+    height: 30px;
+    border: 1px solid #c01bc0;
+    border-radius: 10px;
+    background-color: transparent;
+
+
+}
+
+.btnSignup:hover{
+    animation: btnfade 2s ;
+}
+.container{
+    min-height: 400px;
+    background-color: #20BDFF;
+    
+}
+img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    float: right;
+    filter: grayscale(1);
+    
+}
+
+p:nth-last-child(4){
+    background-color: #20BDFF;
+}
+
+@keyframes btnfade {
+    from{
+        transform: rotateX(0deg);
+    }to{
+        transform: rotateX(360deg);
+    }
+}
+
+
+
